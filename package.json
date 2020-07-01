@@ -1,0 +1,29 @@
+{
+  "name": "create-simple-boilerplate",
+  "version": "0.0.0",
+  "description": "create-simple-boilerplate",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/fedorovsky/create-simple-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fedorovsky/create-simple-boilerplate.git"
+  },
+  "license": "MIT",
+  "author": "Anton Fedorovskyi",
+  "main": "index.js",
+  "bin": {
+    "create-simple-boilerplate": "./index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "lib/**/*",
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
