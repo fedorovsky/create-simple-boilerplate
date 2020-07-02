@@ -17,13 +17,18 @@
     "create-simple-boilerplate": "./index.js"
   },
   "scripts": {
-    "test": "jest"
+    "format": "prettier --write ./**/*.js"
   },
   "files": [
     "lib/**/*",
     "index.js",
     "README.md"
   ],
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "elapsed-time-logger": "^1.1.2",
+    "ora": "^4.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
 }
